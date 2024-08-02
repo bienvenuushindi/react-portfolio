@@ -1,4 +1,5 @@
 import Asim from './image/testimonial/asim-intro.png'
+import Susan from './image/testimonial/susan.jpeg'
 import Ernest from './image/testimonial/ernest.jpeg'
 import Aleks from './image/testimonial/aleks.jpeg'
 import ApiDoc from './image/portfolio/api-docs.png'
@@ -15,7 +16,7 @@ const skills = {
     },
     back: {
         title: 'Back-end',
-        list: ['Ruby', 'Rails', 'Laravel', 'Nodejs', 'Express', 'MySQL', 'MongoDB', 'Postgresql'],
+        list: ['Ruby', 'Rails', 'PHP', 'Laravel', 'Nodejs', 'Express', 'MySQL', 'MongoDB', 'Postgresql'],
     },
     tools: {
         title: 'Tools & Methods',
@@ -27,15 +28,6 @@ const skills = {
     },
 }
 export const education = [
-    {
-        year: 'Mar 2022 - Nov 2022',
-        position: 'Full stack development',
-        company: 'Microverse',
-        location: 'Remote',
-        details: '- Spent 1300+ hours mastering algorithms, data structures, and full-stack development while simultaneously developing projects with Ruby, Rails, JavaScript, React, and Redux.\n' +
-            '\n' +
-            '- Developed skills in remote pair-programming using GitHub, industry-standard gitflow, and daily standups to communicate and collaborate with international remote developers.\n',
-    },
     {
         year: 'Jan 2015 - Nov 2018',
         position: '  Bachelor\'s degree, Computer Science',
@@ -57,8 +49,17 @@ export const education = [
     },
 ]
 export const experience = [
+     {
+        year: 'July 2024 – Present',
+        position: 'Software Engineer',
+        company: 'EvoluData',
+        location: 'Remote',
+        details: '- Ensured a seamless user experience by diligently identifying and resolving bugs, developed\n' +
+            ' - Integrated new features to significantly expand platform functionality and user base' +
+            '- Authored comprehensive technical documentation to empower users and developers.',
+    },
     {
-        year: 'Sept 2023 – Present',
+        year: 'Sept 2023 – July 2024',
         position: 'Software Engineer',
         company: 'JUUBIX',
         location: 'Remote',
@@ -76,50 +77,69 @@ export const experience = [
             '- Provide quality and timely feedback to students on their technical projects, so that they can become better software developers.',
     },
     {
-        year: 'Jul 2020 - April 2022 ',
+        year: 'Jul 2019 - April 2022 ',
         position: 'Full-stack Developer',
         company: 'Freelance',
-        location: 'Remote',
-        details: 'Develop and improve existing and new systems, including client-side and server-side development, while designing efficient and cost-effective systems export default skills',
+        location: 'Remote / On Site',
+        details: 'Developed a secure shop management system for a client to enhance'+
+            'operational efficiency, built a cross-cultural marketplace for Congo and Uganda'+
+            'to facilitate seamless trade, implemented comprehensive website design and optimization'+
+            'techniques to improve online presence and reduce page load times by 30%, and collaborated '+
+            'with UX/UI designers to transform wireframes into functional software solutions, utilizing SEO best practices to improve search engine rankings',
     },
-    // {
-    //     year: 'Jan 2021 - Present',
-    //     position: 'Manager',
-    //     company: ' Ets. Tuliya · Part-time',
-    //     location: 'Congo (DRC)',
-    //     details: '- Improved company relationships with clients\n' +
-    //         '- Provided clear direction to employees',
-    // },
-    {
-        year: 'Mar 2019 - Jul 2019',
-        position: 'Full-stack Developer',
-        company: ' Harvan International Institute ',
-        location: 'Uganda',
-        details: '- Helped the company to improve its online presence\n' +
-            '- Improved the website latency using (CDN, Optimized Images, and minified CSS and JS files)\n' +
-            '- Helped the company to competitively improve the content of the website.',
-    },
-    {
-        year: 'Jul 2018 - Feb 2019',
-        position: 'Frontend Web Developer',
-        company: 'International University of East Africa',
-        location: 'Uganda',
-        details: '- Improved the existing website design under the supervision of the Vice-chancellor\n' +
-            '- Improved the website latency using (CDN, Optimized Images, and minified CSS and JS files)\n' +
-            '- Helped the company to competitively improve the content of the website ( task shared with the marketing team)',
-    },
-    {
-        year: 'Jun 2017 - Sep 2018',
-        position: 'Frontend Web Developer',
-        company: 'Tresud a.s.b.l',
-        location: 'Uganda',
-        details: '- Successfully coordinated the development team to build and deliver the website on time.\n' +
-            '- Designed and implemented the database ( task shared with other 2 people ).\n' +
-            '- Introduced new tools for user behaviour analytics',
-    },
+// {
+//     year: 'Jan 2021 - Present',
+//     position: 'Manager',
+//     company: ' Ets. Tuliya · Part-time',
+//     location: 'Congo (DRC)',
+//     details: '- Improved company relationships with clients\n' +
+//         '- Provided clear direction to employees',
+// },
+//{
+//    year: 'Mar 2019 - Jul 2019',
+//  position: 'Full-stack Developer',
+//company: ' Harvan International Institute ',
+ //       location: 'Uganda',
+//     details: '- Helped the company to improve its online presence\n' +
+//       '- Improved the website latency using (CDN, Optimized Images, and minified CSS and JS files)\n' +
+//     '- Helped the company to competitively improve the content of the website.',
+//   },
+//    {
+//        year: 'Jul 2018 - Feb 2019',
+//        position: 'Frontend Web Developer',
+//        company: 'International University of East Africa',
+//        location: 'Uganda',
+//        details: '- Improved the existing website design under the supervision of the Vice-chancellor\n' +
+//            '- Improved the website latency using (CDN, Optimized Images, and minified CSS and JS files)\n' +
+//            '- Helped the company to competitively improve the content of the website ( task shared with the marketing team)',
+//    },
+//    {
+//        year: 'Jun 2017 - Sep 2018',
+//       position: 'Frontend Web Developer',
+//        company: 'Tresud a.s.b.l',
+//        location: 'Uganda',
+//        details: '- Successfully coordinated the development team to build and deliver the website on time.\n' +
+//            '- Designed and implemented the database ( task shared with other 2 people ).\n' +
+//            '- Introduced new tools for user behaviour analytics',
+//    },
 ]
 
 export const testimonials = [
+    {
+        name: "Susan Falola",
+        position: 'JUUBIX Founder',
+        image: Susan,
+        comment: 'I had the privilege of meeting a diligent software engineer when Ushindi took part in the Global Techsprint Leadership Recruitment Agency. ' +
+    'He has been a communicative team player and an instrumental full stack developer over many departments. ' +
+    'He leads professionally, whilst encouraging his team. ' +
+    'He is agile, and his thought process clarifies expectations before completing code implementation, reviews and updates. ' +
+    'Whether backend or frontend Ushindi will understand the mechanics. ' +
+    'I would recommend him for any future projects and I’m excited to see what the future holds for him.',
+        location: 'London',
+        date: 'June 12, 2024',
+        linkedIn: 'https://www.linkedin.com/in/susan-falola-she-her-hers-mba-b2a093142/'
+
+    },
     {
         name: "Asim Mehmood Khan",
         position: 'Software Developer',
